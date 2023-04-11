@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav a:hover {
+    color: rgb(225, 3, 3);
+  }
+
+  .nav-link {
+    width: 100%;
+  }
+
+  .navbar-fixed {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+  }
+
+  header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
+      url(./images/store.jpg);
+    padding: 15rem 0 10rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  header h4 {
+    color: #fff;
+    text-align: center;
+  }
+
+  header h4 a {
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(210, 4, 4);
+    padding: 8px 2rem;
+    border-radius: 1rem;
+    font-size: 15px;
+  }
+
+  header h4 a:hover {
+    background-color: rgb(174, 61, 61);
+  }
+}
+
+/*  */
+@media (min-width: 769px) {
+  nav {
+    margin-bottom: 3rem;
+  }
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+
+  .navbar-nav a:hover {
+    color: rgb(225, 3, 3);
+  }
+
+  /* .navbar-fixed {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+  } */
+  /*  */
+
+  header {
+    background-color: rgb(241, 13, 13);
+  }
+
+  header h4 {
+    color: #fff;
+  }
+}
