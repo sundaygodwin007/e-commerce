@@ -74,7 +74,8 @@
 
   section img {
     margin-right: 2rem;
-    width: 3rem;
+    width: 4.5rem;
+    height: 20vh;
     display: inline-flex;
     border-radius: 10px;
     -ms-flex-item-align: center;
