@@ -15,6 +15,20 @@
     width: 100%;
   }
 
+  nav .navbar-nav .nav-btn {
+    background-color: rgb(210, 4, 4);
+    color: #fff;
+    border-radius: 1rem;
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+  }
+
+  nav .navbar-nav .nav-btn:hover {
+    color: rgb(210, 4, 4);
+    background-color: #fff;
+  }
+
   .navbar-fixed {
     position: fixed;
     z-index: 9;
@@ -48,6 +62,35 @@
   header h4 a:hover {
     background-color: rgb(174, 61, 61);
   }
+
+  .header-image img {
+    display: none;
+  }
+
+  /*  */
+  section {
+    margin-top: 5rem;
+  }
+
+  section img {
+    margin-right: 2rem;
+    width: 5rem;
+    display: inline-flex;
+    border-radius: 10px;
+    -ms-flex-item-align: center;
+  }
+
+  /*  */
+
+  article h2 {
+    margin-top: 5rem;
+    background-color: rgb(225, 3, 3);
+    border-radius: 1rem;
+    color: #fff;
+    font-family: edwardian script ITC;
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
 }
 
 /*  */
@@ -63,6 +106,18 @@
     color: rgb(225, 3, 3);
   }
 
+  nav .navbar-nav .nav-btn {
+    background-color: rgb(210, 4, 4);
+    color: #fff;
+    border-radius: 1rem;
+    border: 2px solid black;
+  }
+
+  nav .navbar-nav .nav-btn:hover {
+    color: rgb(210, 4, 4);
+    background-color: #fff;
+  }
+
   /* .navbar-fixed {
     position: fixed;
     z-index: 9;
@@ -72,9 +127,66 @@
 
   header {
     background-color: rgb(241, 13, 13);
+    height: 80vh;
+    border-radius: 1rem;
   }
 
   header h4 {
     color: #fff;
+    width: 100%;
+    font-size: 1.7rem;
+  }
+
+  header h4 a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    padding: 12px 2rem;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+  }
+
+  header h4 a:hover {
+    color: rgb(210, 4, 4);
+    border: 2px solid black;
+  }
+
+  .header-image img {
+    width: 100%;
+  }
+
+  header .combined-header {
+    margin-top: 10rem;
+  }
+
+  .combined {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    padding: 10rem 5rem;
+    align-items: center;
+  }
+
+  /*  */
+  section {
+    margin-top: 10rem;
+  }
+
+  section img {
+    margin-right: 4rem;
+    width: 10rem;
+    display: inline-flex;
+    border-radius: 10px;
+  }
+
+  /*  */
+
+  article h2 {
+    margin-top: 7rem;
+    background-color: rgb(225, 3, 3);
+    border-radius: 2rem;
+    color: #fff;
+    font-family: edwardian script ITC;
+    padding: 2rem;
+    font-size: 3rem;
   }
 }
