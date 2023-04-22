@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav a:hover {
+    color: rgb(225, 3, 3);
+  }
+
+  .nav-link {
+    width: 100%;
+  }
+
+  nav .navbar-nav .nav-btn {
+    color: #fff;
+    border-radius: 1rem;
+    border: 2px solid black;
+    width: 50%;
+    margin: auto;
+  }
+
+  nav .navbar-nav .nav-btn:hover {
+    color: rgb(210, 4, 4);
+    background-color: #fff;
+  }
+
+  .navbar-fixed {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+  }
+
+  /*  */
+  section .carousel .carousel-inner {
+    height: 30vh;
+  }
+  /*  */
+  article .combined-products img {
+    width: 100%;
+    margin-top: 4rem;
+    border-radius: 10px;
+  }
+
+  .combined-products {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: center;
+    width: 100%;
+    grid-gap: 2rem;
+    text-align: center;
+  }
+
+  article button {
+    border: none;
+    background-color: rgb(246, 10, 10);
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px;
+  }
+
+  article button:hover {
+    background-color: rgb(174, 61, 61);
+  }
+
+  section {
+    margin-top: 7rem;
+  }
+
+  section a {
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #000000;
+  }
+  /*  */
+
+  footer .combined-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 5rem;
+    background: linear-gradient(rgba(177, 7, 7, 0.8), rgba(0, 0, 0, 0.9)),
+      url(./images/store.jpg);
+    padding: 2rem 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+  }
+
+  footer h3 {
+    font-size: 10px;
+  }
+}
