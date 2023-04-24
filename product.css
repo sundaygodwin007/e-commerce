@@ -38,6 +38,11 @@
   section .carousel .carousel-inner {
     height: 30vh;
   }
+
+  section .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
   /*  */
   article .combined-products img {
     width: 100%;
