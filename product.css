@@ -43,10 +43,15 @@
   .carousel-control-prev {
     display: none;
   }
+
+  .carousel-inner .carousel-item img {
+    background-position: center;
+  }
   /*  */
   article .combined-products img {
     width: 100%;
     margin-top: 4rem;
+    padding: 0 1rem;
     border-radius: 10px;
   }
 
