@@ -48,10 +48,13 @@
     background-position: center;
   }
   /*  */
+  article {
+    padding: 0 1rem;
+  }
+
   article .combined-products img {
     width: 100%;
     margin-top: 4rem;
-    padding: 0 2rem;
     border-radius: 10px;
   }
 
